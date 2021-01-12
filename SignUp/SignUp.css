@@ -1,0 +1,159 @@
+/*******************start SignUp page**************************/
+
+.SU {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.SU .section-header {
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+.SignUp-form {
+    width: 50%;
+    margin: auto;
+}
+
+.red_star {
+    color: red;
+}
+
+.span_style {
+    line-height: 60px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.fm_style {
+    line-height: 60px;
+    padding-right: 2px;
+}
+
+.submit_btn {
+    width: 120px;
+    /*margin-top: 10px;*/
+    margin: auto;
+}
+
+
+/* -------------- Jan 7th ------------- */
+
+.error {
+    direction: rtl;
+    height: 100%;
+    margin-left: 250px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+
+/* ------------------------------------- */
+
+.btnn {
+    border: 1px solid rgb(179, 177, 177);
+    margin-top: 6px;
+    padding: 10px;
+    color: #000000;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFD662;
+    border-radius: 5px;
+    transition: .3s;
+    width: 100%;
+}
+
+.SignUp-form .btnn:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.col-25 {
+    height: 60px;
+    text-align: right;
+    float: right;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    height: 60px;
+    text-align: right;
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.col-75 .form-control {
+    direction: rtl;
+    height: 100%;
+}
+
+input[type="file"] {
+    display: block;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    /*height: 70%;*/
+    margin-top: 8px;
+    color: black;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.custom-file-upload:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.col-30 {
+    height: 60px;
+    text-align: right;
+    float: right;
+    width: 30%;
+    /*border-style: solid;*/
+}
+
+.col-75 .col-30 {
+    direction: rtl;
+}
+
+
+/* Responsive layout - when the screen is less than 1200px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 1200px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 6;
+    }
+}
+@media screen and (max-width: 900px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 6;
+    }
+    .SignUp-form {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/*******************end SignUp page**************************/
+
+
+/*******************end SignUp page**************************/

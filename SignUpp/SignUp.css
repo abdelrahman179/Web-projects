@@ -1,0 +1,248 @@
+/*******************start SignUp page**************************/
+
+.SU {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.SU .section-header {
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+.SignUp-form {
+    width: 50%;
+    margin: auto;
+}
+
+.red_star {
+    color: red;
+}
+
+.span_style {
+    line-height: 60px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.fm_style {
+    line-height: 60px;
+    padding-right: 2px;
+}
+
+.submit_btn {
+    width: 120px;
+    /*margin-top: 10px;*/
+    margin: auto;
+}
+
+
+/************** work sample part **************/
+
+.col_75_cont {
+    height: fit-content;
+    margin-top: 6px;
+    margin-bottom: 0;
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;
+    width: 75%;
+}
+
+.col_75_cont li {
+    display: inline-block;
+    width: 100%;
+}
+
+.imgs {
+    margin-top: 3px;
+    padding: 5px;
+    direction: rtl;
+}
+
+.desc {
+    margin-top: 5px;
+    direction: rtl;
+}
+
+
+/* work sample button */
+
+.plus_btn_cont {
+    float: left;
+}
+
+.plus_btnn {
+    padding: 10px 12px;
+    color: black;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FFD662;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="file"] {
+    display: block;
+}
+
+.imageThumb {
+    max-height: 75px;
+    max-width: 75px;
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+
+.pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.remove {
+    display: block;
+    background: #FFD662;
+    border: 1px solid #ccc;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background: #00539C;
+    color: #ffffff;
+}
+
+.delete_div {
+    display: block;
+    background: #f80707;
+    border: 1px solid #ccc;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete_div:hover {
+    background: #ffffff;
+    color: #0c0c0c;
+}
+
+
+/************** end of work sample part *************v*/
+
+.SignUp-form .plus_btnn:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.btnn {
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #FFD662;
+    border-radius: 5px;
+    transition: .3s;
+    width: 100%;
+}
+
+.SignUp-form .btnn:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.col-25 {
+    height: 60px;
+    text-align: right;
+    float: right;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    height: 60px;
+    margin-top: 6px;
+    text-align: right;
+    float: right;
+    width: 75%;
+}
+
+.col-75 .form-control {
+    direction: rtl;
+    height: 100%;
+}
+
+input[type="file"] {
+    display: block;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    /*height: 70%;*/
+    margin-top: 8px;
+    color: black;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.custom-file-upload:hover {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.col-30 {
+    height: 60px;
+    text-align: right;
+    float: right;
+    width: 30%;
+    /*border-style: solid;*/
+}
+
+.col-75 .col-30 {
+    direction: rtl;
+}
+
+
+/* Responsive layout - when the screen is less than 1200px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 1200px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 6;
+    }
+}
+@media screen and (max-width: 900px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 6;
+    }
+    .SignUp-form {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+/*******************end SignUp page**************************/

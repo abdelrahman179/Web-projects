@@ -1,0 +1,185 @@
+/********* Profile CSS *********/
+
+
+/*******************************/
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    direction: rtl;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.profile_child_info {
+    width: 60%;
+    margin-right: 90px;
+}
+
+.profile_child_info .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+.profile_child_info .info .user_data {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.profile_child_info .info .user_data .fixed {
+    color: black;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    font-size: medium;
+}
+
+.profile_child_info .info .user_data .fixed i {
+    color: #00539C;
+}
+
+.profile_child_info .info .user_data .flex {
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    width: 70%;
+    padding: 10px;
+    font-size: medium;
+}
+
+.profile_child_info .info .user_data_rev {
+    width: 100%;
+    padding: 10px;
+}
+
+.profile_child_info .info .user_data_rev .fixed_2 {
+    background-color: #3198f3;
+    border: rgb(179, 177, 177);
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.profile_child_info .info .user_data_rev .flex_2 {
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    font-size: medium;
+}
+
+.profile_child_img {
+    width: 30%;
+}
+
+.profile_child_img .profile_image {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.profile_image h6 {
+    text-align: center;
+    padding: 6px;
+}
+
+.profile_image img {
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+
+.profile_image input {
+    color: rgb(82, 78, 78);
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.div_back {
+    text-align: center;
+}
+
+
+/* -------- jan 7th ---------- */
+
+#sweet_btns {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    direction: rtl;
+}
+
+#rate_btn,
+#favourite_btn,
+#remove_btn,
+#return_btn,
+#home_btn {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.pro_btn {
+    background-color: #00539C;
+    border: rgb(179, 177, 177);
+    color: rgb(255, 255, 255);
+    height: 35px;
+    padding: 6px 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.pro_btn:hover {
+    background-color: #FFD662;
+    color: black;
+}
+
+@media screen and (max-width: 1023px) {
+    .profile {
+        flex-direction: column-reverse;
+    }
+    .profile_child_info {
+        width: 90%;
+        margin: auto;
+    }
+    .profile_child_img {
+        width: 300px;
+        margin: auto;
+    }
+    .profile_child_img.img {
+        width: 144px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profile {
+        width: 100%;
+    }
+    .profile_child_info {
+        width: 100%;
+        margin: auto;
+    }
+}

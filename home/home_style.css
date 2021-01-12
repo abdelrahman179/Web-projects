@@ -1,0 +1,148 @@
+/********* Service CSS *********/
+
+
+/*******************************/
+
+.service {
+    position: relative;
+    width: 100%;
+    padding: 5px 0 15px 0;
+}
+
+.service .service-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.service .service-item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+}
+
+.service .service-item h3 {
+    margin: 0;
+    padding: 25px 15px 15px 15px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #00539C;
+}
+
+.service .service-item p {
+    margin: 0;
+    padding: 0 25px 25px 25px;
+    font-size: 16px;
+}
+
+.service .service-item a.btn {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    background: #FFD662;
+    transition: .3s;
+}
+
+.service .service-item:hover a.btn {
+    color: #ffffff;
+    background: #00539C;
+}
+
+.service .service-item a.btn:hover {
+    color: #000000;
+    background: #FFD662;
+}
+
+
+/*******************************/
+
+
+/******* Testimonial CSS *******/
+
+
+/*******************************/
+
+.testimonial {
+    position: relative;
+    padding: 45px 0;
+}
+
+.testimonial .testimonial-item {
+    position: relative;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.testimonial .testimonial-img {
+    position: relative;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+
+.testimonial .testimonial-item img {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 15px solid #ffffff;
+    border-radius: 100px;
+}
+
+.testimonial .testimonial-content {
+    position: relative;
+    margin-top: -90px;
+    padding: 100px 25px 25px 25px;
+    text-align: center;
+    background: #FFD662;
+    border-radius: 20px;
+}
+
+.testimonial .testimonial-item p {
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.testimonial .testimonial-content h3 {
+    color: #000000;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.testimonial .testimonial-content h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.testimonial .owl-nav,
+.testimonial .owl-dots {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.testimonial .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #FFD662;
+}
+
+.testimonial .owl-dot.active {
+    background: #00539C;
+}
